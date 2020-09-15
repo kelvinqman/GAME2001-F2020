@@ -52,13 +52,13 @@ private:
 };
 
 // Main
-//int main()
-//{
-//	cout << "Template Example" << endl << endl;
-//	cout << "Min =" << min_func('c', 'd') << endl;
-//	cout << "Max = " << max_func(56.1, 43.6) << endl;
-//
-//	// Create 2 "TemplateClass" objects and compare them.
-//	cout << "Max (objects) = " << max_func(TemplateClass<int>(7), TemplateClass<int>(4)).GetVal();
-//	return 0;
-//}
+int main()
+{
+	cout << "Template Example" << endl << endl;
+	cout << "Min =" << min_func('c', 'd') << endl;
+	cout << "Max = " << max_func(56.1, 43.6) << endl;
+
+	// Create 2 "TemplateClass" objects and compare them.
+	cout << "Max (objects) = " << max_func(TemplateClass<int>(7), TemplateClass<int>(4)).GetVal();
+	return 0;
+}
